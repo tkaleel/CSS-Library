@@ -1,0 +1,117 @@
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed width flex container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+/* Square edged button with drop shadow */
+.shadowedbutton button
+{
+    color:white;
+    background-color:royalblue;
+    border: 2px solid black;
+    width: 125px;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 3px 3px black;
+}
+
+/* Rows of columns at different sizes */
+.row{
+    display: flex;
+}
+
+.col, .col-2, .col-3{
+    flex: 1;
+    padding: 20px;
+    margin: 10px;
+    background-color:darkviolet;
+    color: goldenrod;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.col-2{
+    flex: 2;
+}
+
+.col-3{
+    flex: 3;
+}
+
+/* Flex navbar with links, content on left and right, button;  */
+.container {
+    display: flex;
+}
+
+.justify-left {
+    justify-content: left;
+}
+
+.justify-right {
+    justify-content: right;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.justify-around {
+    justify-content: space-around;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.nav {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    background-color: rgb(33, 43, 39);
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.left {
+    width: 60%;
+}
+
+
+.links {
+    width: 50%;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+button{
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    background-color: teal;
+    box-shadow: 10px 5px 5px black;
+    border: 0px;
+    border-radius: 15px;
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+}
